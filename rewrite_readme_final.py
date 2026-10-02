@@ -1,4 +1,6 @@
-<div align="center">
+import os
+
+readme = """<div align="center">
 
 <img src="assets/ms1_animation.gif" width="100%" alt="MS-1 Cybernetic Core">
 
@@ -93,3 +95,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00ffff&height=100&section=footer&text=END_OF_TRANSMISSION&fontSize=16&fontColor=ffffff" width="100%">
 </div>
+"""
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(readme)
