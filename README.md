@@ -73,7 +73,7 @@
     </td>
     <td width="50%">
       <h4><a href="https://github.com/Vektor010/cs2-autoexec">🎯 cs2-autoexec</a></h4>
-      <p><i>The Ultimate CS2 Pro Autoexec (2026). FPS Boost, Sub-Tick Netcode synchronization, and Faceit/Premier Ready.</i></p>
+      <p><i>The Ultimate CS2 Pro Autoexec. FPS Boost, Sub-Tick Netcode synchronization, and Faceit/Premier Ready.</i></p>
     </td>
   </tr>
   <tr>
