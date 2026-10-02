@@ -74,8 +74,8 @@ I am a technical enthusiast specializing in low-level OS optimization, system au
 ## ▒ ACTIVITY & METRICS
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vektor010&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&icon_color=bc8cff&text_color=c9d1d9" height="165" alt="Vektor010's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vektor010&layout=compact&theme=dark&bg_color=0d1117&hide_border=true&title_color=58a6ff&text_color=c9d1d9" height="165" alt="Vektor010's Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Vektor010&show_icons=true&theme=dark&bg_color=050510&hide_border=true&title_color=00ffff&icon_color=ff00ff&text_color=e0e0ff" height="165" alt="Vektor010's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vektor010&layout=compact&theme=dark&bg_color=050510&hide_border=true&title_color=00ffff&text_color=e0e0ff" height="165" alt="Vektor010's Top Languages" />
 </div>
 
 <br>
@@ -84,10 +84,10 @@ I am a technical enthusiast specializing in low-level OS optimization, system au
 
 <div align="center">
   <a href="https://t.me/nexcorepc/">
-    <img src="https://img.shields.io/badge/Telegram-nexcorepc-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+    <img src="https://img.shields.io/badge/Telegram-nexcorepc-00ffff?style=for-the-badge&logo=telegram&logoColor=black" alt="Telegram">
   </a>
   <a href="https://steamcommunity.com/id/159rus/">
-    <img src="https://img.shields.io/badge/Steam-159rus-000000?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
+    <img src="https://img.shields.io/badge/Steam-159rus-ff00ff?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
   </a>
 </div>
 
