@@ -1,42 +1,53 @@
 <!-- Анимированный баннер сверху -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00F5FF,FF00E5,BD00FF&height=250&section=header&text=Welcome%20to%20my%20Cyber-Space&fontSize=50&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00F5FF,FF00E5,BD00FF&height=250&section=header&text=Vektor010%20%2F%2F%20System%20Architect&fontSize=50&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <div align="center">
 
 <!-- Аватарка -->
-<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/avatar.jpg" width="150" style="border-radius: 50%; box-shadow: 0 0 20px #FF00E5, 0 0 40px #00F5FF; border: 3px solid #BD00FF; margin-bottom: 20px;" />
+<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/avatar.jpg" width="160" style="border-radius: 50%; box-shadow: 0 0 25px #FF00E5, 0 0 45px #00F5FF; border: 3px solid #BD00FF; margin-bottom: 20px;" />
 
 <br>
 
 <!-- Печатающийся текст -->
 <a href="https://github.com/Vektor010">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=700&size=24&duration=4000&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=System+Architect;Low-Latency+Engineer;Cyberpunk+Enthusiast;Building+the+Future" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=700&size=24&duration=4000&pause=1000&color=00F5FF&center=true&vCenter=true&width=600&lines=Low-Latency+Systems+Engineer;Hardcore+Windows+11+Optimizer;AMD+3D+V-Cache+Performance+Tuner;Competitive+Netcode+Architect" alt="Typing SVG" />
 </a>
 
 <br><br>
 
-<!-- GIF-анимация (Neon City / Cyberpunk Matrix) -->
-<img src="https://i.pinimg.com/originals/3d/8c/d7/3d8cd7a31bdfaf3c93f0b2f5b66d7bd5.gif" alt="Cyberpunk GIF" width="600" style="border-radius: 10px; box-shadow: 0 0 15px #FF00E5;" />
+<!-- КРАСИВАЯ КИБЕРПАНК ГИФКА (ГОРОД/НЕОН) -->
+<img src="https://i.pinimg.com/originals/3d/8c/d7/3d8cd7a31bdfaf3c93f0b2f5b66d7bd5.gif" alt="Cyberpunk City" width="800" style="border-radius: 12px; box-shadow: 0 0 20px #00F5FF;" />
 
 <br><br>
 
-## 🌌 Обо мне / About Me
+## 🌌 Обо мне / The Architect
 
-<table align="center" style="border: 1px solid #BD00FF; border-radius: 10px; background-color: #0d1117;">
+<table align="center" style="border: 2px solid #FF00E5; border-radius: 10px; background-color: #0d1117; width: 800px; box-shadow: 0 0 15px #FF00E5;">
   <tr>
-    <td align="left">
-      <ul>
-        <li>👤 <b>Имя:</b> [ВСТАВЬ ТВОЁ ИМЯ]</li>
-        <li>💻 <b>Роль:</b> Low-Latency Engineer / System Architect</li>
-        <li>📍 <b>Локация:</b> [ВСТАВЬ ГОРОД]</li>
-        <li>🎯 <b>Чем занимаюсь:</b> Глубокая оптимизация Windows 11, настройка железа (AMD Ryzen 3D V-Cache, RTX) и сетевых протоколов (CS2 Sub-Tick).</li>
-        <li>🌟 <b>Интересы:</b> Custom OS, Hardware Tuning, Competitive Gaming Configs, PEQ Audio.</li>
+    <td align="left" style="padding: 20px;">
+      <h3 style="color: #00F5FF; margin-top: 0;">Привет, я Vektor010 — Инженер экстремальной оптимизации</h3>
+      <p style="color: #c9d1d9; font-size: 15px; line-height: 1.6;">
+        Я специализируюсь на <b>глубоком хардкорном тюнинге операционных систем и железа</b>. Моя главная цель — уничтожение задержек (input lag/latency) и выжимание абсолютного максимума из современного оборудования. Я не просто пишу скрипты, я перестраиваю работу Windows 11 на уровне ядра, вырезаю телеметрию и переписываю планировщики задач для достижения идеальной плавности.
+      </p>
+      <ul style="color: #c9d1d9; font-size: 15px;">
+        <li>⚡ <b>Hardware Mastery:</b> Профилирование процессоров AMD Ryzen (особенно 3D V-Cache) и тонкая настройка NVIDIA RTX (VBIOS, Undervolting, DPC Latency).</li>
+        <li>🌐 <b>Network Architecture:</b> Работа с Sub-Tick сетевым кодом для соревновательных игр (CS2), синхронизация пакетов и устранение джиттера.</li>
+        <li>🎧 <b>Audio Engineering:</b> Разработка пресетов PEQ-эквалайзера для аудиофилов (FiiO JT1) на уровне аппаратных DSP.</li>
+        <li>💻 <b>Automation:</b> Создание мощных тулчейнов на C++, Python и PowerShell для развертывания идеальных сред.</li>
       </ul>
+      <p style="color: #FF00E5; font-size: 15px; font-weight: bold;">
+        Latency — мой враг. Оптимизация — моё оружие.
+      </p>
     </td>
   </tr>
 </table>
 
 <br>
+
+<!-- ЕЩЕ ОДНА ГИФКА ДЛЯ КРАСОТЫ (МАТРИЦА/ХАКЕР) -->
+<img src="https://i.pinimg.com/originals/a4/bc/90/a4bc90ea42ae1b2bf1b44ecb3f0da594.gif" alt="Hacker Matrix" width="800" style="border-radius: 12px; box-shadow: 0 0 20px #BD00FF;" />
+
+<br><br>
 
 ## 🛠 Tech Stack
 
@@ -45,8 +56,9 @@
   <img src="https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=c%2B%2B&logoColor=00F5FF" alt="C++">
   <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FF00E5" alt="Python">
   <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=BD00FF" alt="PowerShell">
-  <img src="https://img.shields.io/badge/Windows-000000?style=for-the-badge&logo=windows&logoColor=00F5FF" alt="Windows">
-  <img src="https://img.shields.io/badge/CMake-000000?style=for-the-badge&logo=cmake&logoColor=FF00E5" alt="CMake">
+  <img src="https://img.shields.io/badge/Windows_11_Internals-000000?style=for-the-badge&logo=windows&logoColor=00F5FF" alt="Windows">
+  <img src="https://img.shields.io/badge/AMD_Ryzen-000000?style=for-the-badge&logo=amd&logoColor=FF00E5" alt="AMD">
+  <img src="https://img.shields.io/badge/CMake-000000?style=for-the-badge&logo=cmake&logoColor=BD00FF" alt="CMake">
 </p>
 
 <br>
@@ -64,7 +76,12 @@
 
 <br>
 
-## 🔥 Мои проекты
+<!-- ТРЕТЬЯ АТМОСФЕРНАЯ ГИФКА (SYNTHWAVE РЕТРО) -->
+<img src="https://i.pinimg.com/originals/11/49/a5/1149a56ebec13e9a06f366113b8fc23d.gif" alt="Synthwave Grid" width="800" style="border-radius: 12px; box-shadow: 0 0 20px #00F5FF;" />
+
+<br><br>
+
+## 🔥 Мои проекты (Active Directives)
 
 <p align="center">
   <!-- Карточки проектов с помощью github-readme-stats -->
