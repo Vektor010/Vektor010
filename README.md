@@ -1,5 +1,5 @@
-<!-- Анимированный баннер сверху -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00F5FF,FF00E5,BD00FF&height=250&section=header&text=Vektor010%20%2F%2F%20System%20Architect&fontSize=50&fontColor=ffffff&animation=twinkling" width="100%" />
+<!-- Анимированный баннер сверху (NEXCORE HUD) -->
+<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/hud_banner.svg" alt="NEXCORE HUD" width="100%" />
 
 <div align="center">
 

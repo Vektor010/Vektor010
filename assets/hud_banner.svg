@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
+  <defs>
+    <style>
+      .bg { fill: #050510; }
+      .grid-sm { stroke: #0f0f2a; stroke-width: 0.5; }
+      .grid-lg { stroke: #1a1a3a; stroke-width: 1; }
+      .txt-cyan { fill: #00ffff; font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 14px; font-weight: bold; }
+      .txt-mag { fill: #ff00ff; font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 14px; font-weight: bold; }
+      .txt-main { fill: #ffffff; font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 12px; }
+      .txt-muted { fill: #6a6a9a; font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 10px; }
+    </style>
+    
+    <pattern id="grid-10" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" class="grid-sm" />
+    </pattern>
+    <pattern id="grid-40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="url(#grid-10)" />
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid-lg" />
+    </pattern>
+    
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.07" />
+      <stop offset="50%" stop-color="#050510" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ff00ff" stop-opacity="0.07" />
+    </linearGradient>
+
+    <path id="p1" d="M 0 -30 L 0 -110" fill="none" />
+    <path id="p2" d="M 26 15 L 90 55" fill="none" />
+    <path id="p3" d="M -26 15 L -90 55" fill="none" />
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="12" />
+  <rect width="100%" height="100%" fill="url(#grid-40)" rx="12" />
+  <rect width="100%" height="100%" fill="url(#cyber-grad)" rx="12" />
+
+  <path d="M 15 35 L 15 15 L 35 15" fill="none" stroke="#00ffff" stroke-width="2" />
+  <path d="M 785 35 L 785 15 L 765 15" fill="none" stroke="#ff00ff" stroke-width="2" />
+  <path d="M 15 315 L 15 335 L 35 335" fill="none" stroke="#00ffff" stroke-width="2" />
+  <path d="M 785 315 L 785 335 L 765 335" fill="none" stroke="#ff00ff" stroke-width="2" />
+
+  <g transform="translate(30, 40)">
+    <text class="txt-cyan" x="0" y="0">[ SYSTEM_CORE_MONITOR ]</text>
+    <path d="M 0 10 L 180 10" fill="none" stroke="#00ffff" stroke-width="2" opacity="0.6" />
+    
+    <text class="txt-muted" x="0" y="35">CPU_TICK [RYZEN]</text>
+    <rect x="0" y="45" width="180" height="6" fill="#1a1a3a" />
+    <g transform="translate(0, 45)">
+      <rect x="0" y="0" width="180" height="6" fill="#00ffff">
+        <animateTransform attributeName="transform" type="scale" values="0.7 1; 0.9 1; 0.6 1; 0.8 1; 0.7 1" dur="2s" repeatCount="indefinite" />
+      </rect>
+    </g>
+    <text class="txt-main" x="145" y="35">4.8 GHz</text>
+
+    <text class="txt-muted" x="0" y="75">GPU_ALLOC [RTX]</text>
+    <rect x="0" y="85" width="180" height="6" fill="#1a1a3a" />
+    <g transform="translate(0, 85)">
+      <rect x="0" y="0" width="180" height="6" fill="#ff00ff">
+        <animateTransform attributeName="transform" type="scale" values="0.5 1; 0.7 1; 0.6 1; 0.8 1; 0.5 1" dur="3s" repeatCount="indefinite" />
+      </rect>
+    </g>
+    <text class="txt-main" x="125" y="75">VRAM OPT</text>
+
+    <text class="txt-muted" x="0" y="115">NET_SUB_TICK_LTCY</text>
+    <rect x="0" y="125" width="180" height="6" fill="#1a1a3a" />
+    <g transform="translate(0, 125)">
+      <rect x="0" y="0" width="180" height="6" fill="#00ffff">
+        <animateTransform attributeName="transform" type="scale" values="0.1 1; 0.3 1; 0.1 1; 0.2 1; 0.1 1" dur="1.5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+    <text class="txt-main" x="155" y="115">1ms</text>
+
+    <text class="txt-muted" x="0" y="165">PEQ_AUDIO_STREAM</text>
+    <g transform="translate(0, 200)">
+      <g transform="translate(10, 0)">
+        <rect x="-5" y="-20" width="10" height="20" fill="#00ffff">
+          <animateTransform attributeName="transform" type="scale" values="1 0.2; 1 0.8; 1 0.4; 1 0.9; 1 0.2" dur="1s" repeatCount="indefinite" />
+        </rect>
+      </g>
+      <g transform="translate(30, 0)">
+        <rect x="-5" y="-20" width="10" height="20" fill="#ff00ff">
+          <animateTransform attributeName="transform" type="scale" values="1 0.8; 1 0.3; 1 1.0; 1 0.5; 1 0.8" dur="1.2s" repeatCount="indefinite" />
+        </rect>
+      </g>
+      <g transform="translate(50, 0)">
+        <rect x="-5" y="-20" width="10" height="20" fill="#00ffff">
+          <animateTransform attributeName="transform" type="scale" values="1 0.5; 1 1.0; 1 0.2; 1 0.6; 1 0.5" dur="0.9s" repeatCount="indefinite" />
+        </rect>
+      </g>
+      <g transform="translate(70, 0)">
+        <rect x="-5" y="-20" width="10" height="20" fill="#ff00ff">
+          <animateTransform attributeName="transform" type="scale" values="1 0.9; 1 0.4; 1 0.7; 1 0.2; 1 0.9" dur="1.1s" repeatCount="indefinite" />
+        </rect>
+      </g>
+      <g transform="translate(90, 0)">
+        <rect x="-5" y="-20" width="10" height="20" fill="#00ffff">
+          <animateTransform attributeName="transform" type="scale" values="1 0.3; 1 0.9; 1 0.5; 1 1.0; 1 0.3" dur="1.3s" repeatCount="indefinite" />
+        </rect>
+      </g>
+      <g transform="translate(110, 0)">
+        <rect x="-5" y="-20" width="10" height="20" fill="#ff00ff">
+          <animateTransform attributeName="transform" type="scale" values="1 0.6; 1 0.2; 1 0.8; 1 0.4; 1 0.6" dur="0.8s" repeatCount="indefinite" />
+        </rect>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(400, 175)">
+    <g stroke="#6a6a9a" stroke-width="1.5" opacity="0.5">
+      <line x1="0" y1="-30" x2="0" y2="-110" />
+      <line x1="26" y1="15" x2="90" y2="55" />
+      <line x1="-26" y1="15" x2="-90" y2="55" />
+    </g>
+
+    <g>
+      <circle cx="0" cy="0" r="100" stroke="#00ffff" stroke-width="2" stroke-dasharray="80 140 40 140" fill="none" opacity="0.6" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="25s" repeatCount="indefinite" />
+    </g>
+    <g>
+      <circle cx="0" cy="0" r="85" stroke="#ff00ff" stroke-width="2" stroke-dasharray="60 100 20 100" fill="none" opacity="0.6" />
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="20s" repeatCount="indefinite" />
+    </g>
+
+    <circle r="3" fill="#ffffff">
+      <animateMotion dur="2s" repeatCount="indefinite" fill="freeze">
+        <mpath href="#p1" />
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle r="3" fill="#ffffff">
+      <animateMotion dur="2.5s" repeatCount="indefinite" fill="freeze">
+        <mpath href="#p2" />
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle r="3" fill="#ffffff">
+      <animateMotion dur="1.8s" repeatCount="indefinite" fill="freeze">
+        <mpath href="#p3" />
+      </animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+
+    <g transform="translate(0, -110)">
+      <circle cx="0" cy="0" r="12" fill="#050510" stroke="#00ffff" stroke-width="2" />
+      <circle cx="0" cy="0" r="5" fill="#00ffff" />
+      <text class="txt-muted" x="0" y="-18" text-anchor="middle">WINDOWS</text>
+    </g>
+
+    <g transform="translate(90, 55)">
+      <circle cx="0" cy="0" r="12" fill="#050510" stroke="#ff00ff" stroke-width="2" />
+      <circle cx="0" cy="0" r="5" fill="#ff00ff" />
+      <text class="txt-muted" x="18" y="4" text-anchor="start">CS2_NET</text>
+    </g>
+
+    <g transform="translate(-90, 55)">
+      <circle cx="0" cy="0" r="12" fill="#050510" stroke="#00ffff" stroke-width="2" />
+      <circle cx="0" cy="0" r="5" fill="#00ffff" />
+      <text class="txt-muted" x="-18" y="4" text-anchor="end">AUDIO</text>
+    </g>
+
+    <circle cx="0" cy="0" r="30" fill="#050510" stroke="#ff00ff" stroke-width="2" />
+    <circle cx="0" cy="0" r="15" fill="#00ffff">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text class="txt-main" x="0" y="4" text-anchor="middle" font-weight="bold">NEX</text>
+  </g>
+
+  <g transform="translate(600, 40)">
+    <text class="txt-mag" x="0" y="0">[ TERMINAL_I/O ]</text>
+    <path d="M 0 10 L 160 10" fill="none" stroke="#ff00ff" stroke-width="2" opacity="0.6" />
+    
+    <g transform="translate(0, 35)">
+      <text class="txt-muted" x="0" y="0">root@vektor:~#</text>
+      <text class="txt-main" x="0" y="15">./optimize.sh</text>
+      
+      <text class="txt-muted" x="0" y="35">[+] Injecting hooks...</text>
+      <text class="txt-cyan" x="0" y="50">SUCCESS: 0x7FFE</text>
+      
+      <text class="txt-muted" x="0" y="70">[+] Overriding timer</text>
+      <text class="txt-cyan" x="0" y="85">HPET Disabled</text>
+      
+      <text class="txt-muted" x="0" y="105">[+] CS2 Netcode</text>
+      <text class="txt-mag" x="0" y="120">SubTick Aligned</text>
+      
+      <text class="txt-muted" x="0" y="145">root@vektor:~#</text>
+      
+      <rect x="95" y="135" width="8" height="12" fill="#00ffff">
+        <animate attributeName="opacity" values="1;0" calcMode="discrete" keyTimes="0;0.5" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>
