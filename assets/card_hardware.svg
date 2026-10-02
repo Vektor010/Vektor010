@@ -1,35 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="270" height="260" viewBox="0 0 270 260">
   <defs>
     <style>
-      .bg { fill: #0d1117; stroke: #ff00ff; stroke-width: 2; rx: 16px; }
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; fill: #ffffff; font-weight: 800; }
-      .subtitle { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; }
-      .subtitle-mag { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #ff00ff; letter-spacing: 2px; }
-      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9d1d9; line-height: 1.6; }
+      .bg { fill: #0d1117; stroke: #00ffff; stroke-width: 2; rx: 16px; }
+      .title { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 20px; fill: #ffffff; font-weight: bold; text-anchor: middle; }
+      .subtitle { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; text-anchor: middle; }
+      .text { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 13px; fill: #c9d1d9; text-anchor: middle; }
       .highlight { fill: #00ffff; font-weight: bold; }
-      .term { font-family: ui-monospace, Consolas, monospace; font-size: 13px; fill: #c9d1d9; }
-      .term-cmd { fill: #ff00ff; font-weight: bold; }
-      .term-path { fill: #00ffff; }
     </style>
   </defs>
   <rect width="266" height="256" x="2" y="2" class="bg" />
   
-  <text class="subtitle-mag" x="25" y="40">CURRENT DIRECTIVES</text>
+  <text class="title" x="135" y="50">DIRECTIVES</text>
+  <text class="subtitle" x="135" y="75">CURRENT FOCUS</text>
   
-  <rect x="25" y="60" width="220" height="40" fill="#151525" rx="5" />
-  <text class="text" x="35" y="85" font-weight="bold" fill="#ffffff">Focus:</text>
-  <text class="text" x="90" y="85" fill="#00ffff">System Architecture</text>
-  
-  <rect x="25" y="115" width="220" height="40" fill="#151525" rx="5" />
-  <text class="text" x="35" y="140" font-weight="bold" fill="#ffffff">Code:</text>
-  <text class="text" x="80" y="140" fill="#ff00ff">C++ &amp; Python</text>
-
-  <rect x="25" y="170" width="220" height="40" fill="#151525" rx="5" />
-  <text class="text" x="35" y="195" font-weight="bold" fill="#ffffff">Goal:</text>
-  <text class="text" x="80" y="195" fill="#00ffff">Zero-Latency Design</text>
-
-  <circle cx="135" cy="235" r="4" fill="#00ffff" />
-  <circle cx="165" cy="235" r="4" fill="#ff00ff" />
-  <circle cx="195" cy="235" r="4" fill="#00ffff" />
+  <text class="text" x="135" y="125">System Architecture</text>
+  <text class="text" x="135" y="150" fill="#ff00ff">C++ &amp; Python</text>
+  <text class="text" x="135" y="175">Zero-Latency Design</text>
+  <text class="text" x="135" y="200" fill="#00ffff">Open Source</text>
 
 </svg>

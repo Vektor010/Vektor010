@@ -2,27 +2,21 @@
   <defs>
     <style>
       .bg { fill: #0d1117; stroke: #ff00ff; stroke-width: 2; rx: 16px; }
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; fill: #ffffff; font-weight: 800; }
-      .subtitle { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; }
-      .subtitle-mag { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #ff00ff; letter-spacing: 2px; }
-      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9d1d9; line-height: 1.6; }
+      .title { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 20px; fill: #ffffff; font-weight: bold; text-anchor: middle; }
+      .subtitle { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 14px; fill: #ff00ff; letter-spacing: 2px; text-anchor: middle; }
+      .text { font-family: ui-monospace, Consolas, "Courier New", monospace; font-size: 13px; fill: #c9d1d9; text-anchor: middle; }
       .highlight { fill: #00ffff; font-weight: bold; }
-      .term { font-family: ui-monospace, Consolas, monospace; font-size: 13px; fill: #c9d1d9; }
-      .term-cmd { fill: #ff00ff; font-weight: bold; }
-      .term-path { fill: #00ffff; }
     </style>
   </defs>
   <rect width="456" height="256" x="2" y="2" class="bg" />
   
-  <text class="title" x="30" y="50">Vektor010</text>
-  <text class="subtitle" x="30" y="80">SOFTWARE ENGINEER &amp; OPTIMIZER</text>
+  <text class="title" x="230" y="50">Vektor010</text>
+  <text class="subtitle" x="230" y="75">SOFTWARE ENGINEER</text>
   
-  <text class="text" x="30" y="120">Dedicated to building elegant,</text>
-  <text class="text" x="30" y="145">high-performance systems. I focus</text>
-  <text class="text" x="30" y="170">on <tspan class="highlight">low-level architecture</tspan> and</text>
-  <text class="text" x="30" y="195">writing exceptionally fast,</text>
-  <text class="text" x="30" y="220">resource-efficient code.</text>
-  
-  <path d="M 400 30 L 430 30 M 400 45 L 430 45 M 400 60 L 430 60" stroke="#ff00ff" stroke-width="3" />
+  <text class="text" x="230" y="125">Building elegant,</text>
+  <text class="text" x="230" y="150">high-performance systems.</text>
+  <text class="text" x="230" y="175">Focus on <tspan class="highlight">architecture</tspan></text>
+  <text class="text" x="230" y="200">and writing exceptionally fast,</text>
+  <text class="text" x="230" y="225">resource-efficient code.</text>
 
 </svg>

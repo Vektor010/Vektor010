@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hud_banner.svg?v=2" width="100%" alt="Vektor010 HUD Banner"/>
+<img src="assets/hud_banner.svg" width="100%" alt="Vektor010 HUD Banner"/>
 
 </div>
 
@@ -9,13 +9,13 @@
 <table>
 <tr>
 <td width="46%">
-<img src="assets/card_about.svg?v=2" width="100%" alt="About Vektor010"/>
+<img src="assets/card_about.svg" width="100%" alt="About Vektor010"/>
 </td>
 <td width="27%">
-<img src="assets/card_terminal.svg?v=2" width="100%" alt="Terminal"/>
+<img src="assets/card_terminal.svg" width="100%" alt="Terminal"/>
 </td>
 <td width="27%">
-<img src="assets/card_hardware.svg?v=2" width="100%" alt="Hardware Specs"/>
+<img src="assets/card_hardware.svg" width="100%" alt="Hardware Specs"/>
 </td>
 </tr>
 </table>
@@ -23,14 +23,14 @@
 <br/>
 
 <div align="center">
-<img src="assets/card_skills.svg?v=2" width="100%" alt="Detailed Capabilities"/>
+<img src="assets/card_skills.svg" width="100%" alt="Detailed Capabilities"/>
 </div>
 
 <br/>
 
 <div align="center">
 
-<img src="assets/heading_arsenal.svg?v=2" width="100%" alt="Arsenal"/>
+<img src="assets/heading_arsenal.svg" width="100%" alt="Arsenal"/>
 <br/><br/>
 
 <img src="https://skillicons.dev/icons?i=cpp,c,py,bash,windows,linux,git,github&perline=10" alt="Tech stack"/>
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img src="assets/heading_projects.svg?v=2" width="100%" alt="Active Directives"/>
+<img src="assets/heading_projects.svg" width="100%" alt="Active Directives"/>
 <br/><br/>
 
 [![windows-optimizer](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=windows-optimizer&theme=radical&bg_color=0d1117&border_color=00ffff&title_color=00ffff&text_color=ffffff&hide_border=false)](https://github.com/Vektor010/windows-optimizer)
@@ -56,7 +56,7 @@
 
 <div align="center">
 
-<img src="assets/heading_connect.svg?v=2" width="100%" alt="Secure Comm-Channels"/>
+<img src="assets/heading_connect.svg" width="100%" alt="Secure Comm-Channels"/>
 <br/><br/>
 
 <a href="https://t.me/nexcorepc/">
