@@ -7,5 +7,5 @@
   <path d="M 200 30 L 320 30 M 680 30 L 800 30" stroke="#00ffff" stroke-width="2" opacity="0.5" />
   <circle cx="330" cy="30" r="3" fill="#00ffff" />
   <circle cx="670" cy="30" r="3" fill="#00ffff" />
-  <text class="heading" x="500" y="37">ARSENAL & TECH STACK</text>
+  <text class="heading" x="500" y="37">ARSENAL &amp; TECH STACK</text>
 </svg>
