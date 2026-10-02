@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
+new_svg = """<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350">
     <defs>
         <style>
             .bg { fill: #050510; }
@@ -163,4 +163,7 @@
     
     <!-- Top Left Decoration -->
     <path d="M 20 300 L 20 320 L 40 320" fill="none" stroke="#ff00ff" stroke-width="2" opacity="0.6"/>
-</svg>
+</svg>"""
+
+with open("monitoring.svg", "w", encoding="utf-8") as f:
+    f.write(new_svg)

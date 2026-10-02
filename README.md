@@ -80,6 +80,19 @@ I am a technical enthusiast specializing in low-level OS optimization, system au
 
 <br>
 
+## ▒ CONTACT & SOCIALS
+
+<div align="center">
+  <a href="https://t.me/nexcorepc/">
+    <img src="https://img.shields.io/badge/Telegram-nexcorepc-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+  </a>
+  <a href="https://steamcommunity.com/id/159rus/">
+    <img src="https://img.shields.io/badge/Steam-159rus-000000?style=for-the-badge&logo=steam&logoColor=white" alt="Steam">
+  </a>
+</div>
+
+<br>
+
 <div align="center">
   <i>Automated. Optimized. Open-Source.</i>
 </div>
