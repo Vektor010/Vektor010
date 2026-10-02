@@ -1,4 +1,6 @@
-<div align="center">
+import os
+
+readme_content = """<div align="center">
 
 # Vektor010
 
@@ -96,3 +98,7 @@ I am a low-level OS engineer and system architect. I don't just write code; I di
 <div align="center">
   <i>Automated. Optimized. Open-Source.</i>
 </div>
+"""
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(readme_content)
