@@ -30,7 +30,7 @@
 
 <div align="center">
 
-<img src="assets/heading_arsenal_v2.svg" width="100%" alt="Arsenal"/>
+<img src="assets/heading_arsenal_v3.svg" width="100%" alt="Arsenal"/>
 <br/><br/>
 
 <img src="https://skillicons.dev/icons?i=cpp,c,py,bash,windows,linux,git,github&perline=10" alt="Tech stack"/>
@@ -41,7 +41,7 @@
 
 <div align="center">
 
-<img src="assets/heading_projects_v2.svg" width="100%" alt="Active Directives"/>
+<img src="assets/heading_projects_v3.svg" width="100%" alt="Active Directives"/>
 <br/><br/>
 
 [![windows-optimizer](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=windows-optimizer&theme=radical&bg_color=0d1117&border_color=00ffff&title_color=00ffff&text_color=ffffff&hide_border=false)](https://github.com/Vektor010/windows-optimizer)
@@ -56,7 +56,7 @@
 
 <div align="center">
 
-<img src="assets/heading_connect_v2.svg" width="100%" alt="Secure Comm-Channels"/>
+<img src="assets/heading_connect_v3.svg" width="100%" alt="Secure Comm-Channels"/>
 <br/><br/>
 
 <a href="https://t.me/nexcorepc/">
