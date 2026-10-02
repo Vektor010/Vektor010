@@ -2,7 +2,6 @@
   <defs>
     <style>
       .bg { fill: #0d1117; stroke: #ff00ff; stroke-width: 2; rx: 16px; }
-      .bg-cyan { fill: #0d1117; stroke: #00ffff; stroke-width: 2; rx: 16px; }
       .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; fill: #ffffff; font-weight: 800; }
       .subtitle { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; }
       .subtitle-mag { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #ff00ff; letter-spacing: 2px; }
@@ -16,15 +15,14 @@
   <rect width="456" height="256" x="2" y="2" class="bg" />
   
   <text class="title" x="30" y="50">Vektor010</text>
-  <text class="subtitle" x="30" y="80">SYSTEM ARCHITECT</text>
+  <text class="subtitle" x="30" y="80">SOFTWARE ENGINEER &amp; OPTIMIZER</text>
   
-  <text class="text" x="30" y="120">Dismantling OS limits and hardware</text>
-  <text class="text" x="30" y="145">constraints. Focused on <tspan class="highlight">extreme</tspan></text>
-  <text class="text" x="30" y="170"><tspan class="highlight">latency reduction</tspan>, custom kernel</text>
-  <text class="text" x="30" y="195">tweaks, and extracting maximum</text>
-  <text class="text" x="30" y="220">FPS from Ryzen &amp; RTX platforms.</text>
+  <text class="text" x="30" y="120">Dedicated to building elegant,</text>
+  <text class="text" x="30" y="145">high-performance systems. I focus</text>
+  <text class="text" x="30" y="170">on <tspan class="highlight">low-level architecture</tspan> and</text>
+  <text class="text" x="30" y="195">writing exceptionally fast,</text>
+  <text class="text" x="30" y="220">resource-efficient code.</text>
   
-  <!-- Decorative CPU lines -->
-  <path d="M 400 30 L 430 30 M 400 45 L 430 45 M 400 60 L 430 60 M 400 75 L 430 75" stroke="#ff00ff" stroke-width="3" />
+  <path d="M 400 30 L 430 30 M 400 45 L 430 45 M 400 60 L 430 60" stroke="#ff00ff" stroke-width="3" />
 
 </svg>
