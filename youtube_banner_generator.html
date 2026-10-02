@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500;700&family=Share+Tech+Mono&display=swap');
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #050510;
+    background-image: 
+      linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .banner-container {
+    width: 2560px;
+    height: 1440px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .safe-zone {
+    width: 1546px;
+    height: 423px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px dashed red; */ /* For debugging */
+  }
+
+  .glow-cyan { text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; }
+  .glow-magenta { text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff; }
+  
+  .box {
+    background: rgba(10, 10, 25, 0.8);
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3), inset 0 0 15px rgba(0, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 4px;
+    background: #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+  }
+
+  .box.magenta {
+    border-color: #ff00ff;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.3), inset 0 0 15px rgba(255, 0, 255, 0.2);
+  }
+  .box.magenta::before {
+    background: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+  }
+
+  .panel-left, .panel-right {
+    width: 380px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .stat-label { font-size: 18px; color: #aaa; }
+  .stat-value { font-size: 24px; font-weight: bold; color: #00ffff; }
+  .magenta .stat-value { color: #ff00ff; }
+
+  .center-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+
+  .main-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 160px;
+    line-height: 0.8;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
+    transform: skewX(-10deg);
+  }
+
+  .sub-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    margin: 10px 0 0 0;
+    color: #fff;
+    text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+    transform: skewX(-10deg);
+  }
+
+  .footer-bar {
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pill {
+    background: rgba(10, 10, 25, 0.9);
+    border: 2px solid #ff00ff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
+  }
+  .pill.cyan {
+    border-color: #00ffff;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+  }
+
+</style>
+</head>
+<body>
+
+<div class="banner-container">
+  <div class="safe-zone">
+    
+    <!-- LEFT PANEL -->
+    <div class="box panel-left">
+      <div style="font-size: 22px; margin-bottom: 20px; text-align: center; letter-spacing: 4px;">SYSTEM METRICS</div>
+      
+      <div class="stat-row">
+        <span class="stat-label">GPU RTX 5080</span>
+        <span class="stat-value">62°C</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">CPU 9850X3D</span>
+        <span class="stat-value">48°C</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">RAM 64GB DDR5</span>
+        <span class="stat-value">6000 MT/s</span>
+      </div>
+      <div class="stat-row" style="border: none;">
+        <span class="stat-label">DPC LATENCY</span>
+        <span class="stat-value">&lt; 50μs</span>
+      </div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="center-content">
+      <div style="font-size: 30px; letter-spacing: 10px; color: #aaa;">SKYLAKE159</div>
+      <h1 class="main-title">1100 FPS</h1>
+      <h2 class="sub-title">9850X3D + RTX 5080</h2>
+      <div style="margin-top: 20px; font-size: 20px; background: #ff00ff; color: #000; padding: 5px 20px; font-weight: bold; transform: skewX(-10deg);">ULTIMATE PERFORMANCE // NO COMPROMISE</div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="box magenta panel-right">
+      <div style="font-size: 22px; margin-bottom: 20px; text-align: center; letter-spacing: 4px;">GAME METRICS</div>
+      
+      <div class="stat-row">
+        <span class="stat-label">TARGET</span>
+        <span class="stat-value">CS2</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">1% LOWS</span>
+        <span class="stat-value">400 FPS</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">TICKRATE</span>
+        <span class="stat-value">SUB-TICK</span>
+      </div>
+      <div class="stat-row" style="border: none;">
+        <span class="stat-label">POLLING RATE</span>
+        <span class="stat-value">8000Hz</span>
+      </div>
+    </div>
+
+    <!-- BOTTOM PILLS -->
+    <div class="footer-bar">
+      <div class="pill cyan">X870E ARCHITECTURE</div>
+      <div class="pill cyan">DDR5 64GB</div>
+      <div class="pill magenta">RTX 5080</div>
+      <div class="pill magenta">1TB Gen5 SSD</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
