@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="assets/cyber_deck.svg" alt="Cybernetic Core Dashboard" width="100%">
+<img src="assets/ms1_core.svg" alt="Cybernetic Core Dashboard" width="100%">
 
 <br>
 
