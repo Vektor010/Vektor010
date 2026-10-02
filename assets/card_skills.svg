@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; stroke: #00ffff; stroke-width: 2; rx: 16px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; fill: #ffffff; font-weight: 800; }
+      .subtitle { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #c9d1d9; line-height: 1.6; }
+      .highlight { fill: #ff00ff; font-weight: bold; }
+      .cyan-text { fill: #00ffff; font-weight: bold; }
+    </style>
+  </defs>
+  <rect width="996" height="276" x="2" y="2" class="bg" />
+  
+  <text class="title" x="40" y="50">SYSTEM ENGINEERING CAPABILITIES</text>
+  <text class="subtitle" x="40" y="80">DEEP DIVE TECHNICAL SPECS</text>
+  
+  <path d="M 450 30 L 450 220" stroke="#1a1a3a" stroke-width="2" />
+
+  <g transform="translate(40, 110)">
+    <text class="text" x="0" y="0"><tspan class="cyan-text">OS-LEVEL TUNING</tspan>: Custom Windows 11 builds, Kernel-level</text>
+    <text class="text" x="0" y="25">debloating, Telemetry elimination, and advanced Scheduler</text>
+    <text class="text" x="0" y="50">overrides. DPC Latency consistently forced below &lt; 50μs.</text>
+    
+    <text class="text" x="0" y="90"><tspan class="cyan-text">HARDWARE EXPLOITATION</tspan>: AMD Ryzen 3D V-Cache PBO tuning,</text>
+    <text class="text" x="0" y="115">FCLK optimization, and NVIDIA RTX VBIOS modifications for</text>
+    <text class="text" x="0" y="140">stable, uncompromised frame delivery (1% lows maximization).</text>
+  </g>
+
+  <g transform="translate(490, 110)">
+    <text class="text" x="0" y="0"><tspan class="highlight">COMPETITIVE NETCODE</tspan>: CS2 Sub-Tick synchronization. TCP/UDP</text>
+    <text class="text" x="0" y="25">routing optimizations, bufferbloat mitigation, and NIC</text>
+    <text class="text" x="0" y="50">interrupt moderation (Interrupt Affinity / RSS tuning).</text>
+
+    <text class="text" x="0" y="90"><tspan class="highlight">AUDIO DSP &amp; PEQ</tspan>: Parametric Equalization (PEQ) profiles</text>
+    <text class="text" x="0" y="115">for competitive hardware (FiiO JT1). High-precision spatial</text>
+    <text class="text" x="0" y="140">audio positioning with zero-latency hardware passthrough.</text>
+  </g>
+
+</svg>

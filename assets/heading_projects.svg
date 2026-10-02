@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="60" viewBox="0 0 1000 60">
+  <defs>
+    <style>
+      .heading { font-family: ui-monospace, Consolas, monospace; font-size: 20px; fill: #ff00ff; letter-spacing: 4px; font-weight: bold; text-anchor: middle; }
+    </style>
+  </defs>
+  <path d="M 200 30 L 320 30 M 680 30 L 800 30" stroke="#ff00ff" stroke-width="2" opacity="0.5" />
+  <circle cx="330" cy="30" r="3" fill="#ff00ff" />
+  <circle cx="670" cy="30" r="3" fill="#ff00ff" />
+  <text class="heading" x="500" y="37">ACTIVE DIRECTIVES</text>
+</svg>

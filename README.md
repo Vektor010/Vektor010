@@ -23,16 +23,14 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/card_create.svg" width="100%" alt="Active Directives"/>
+<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/card_skills.svg" width="100%" alt="Detailed Capabilities"/>
 </div>
 
 <br/>
 
 <div align="center">
 
-### TECH & TOOLS - ARSENAL
-
-<br/>
+<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/heading_arsenal.svg" width="100%" alt="Arsenal"/>
 
 <img src="https://skillicons.dev/icons?i=cpp,c,py,bash,windows,linux,git,github&perline=10" alt="Tech stack"/>
 
@@ -42,8 +40,13 @@
 
 <div align="center">
 
-[![windows-optimizer](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=windows-optimizer&theme=synthwave&hide_border=false)](https://github.com/Vektor010/windows-optimizer)
-[![cs2-autoexec](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=cs2-autoexec&theme=synthwave&hide_border=false)](https://github.com/Vektor010/cs2-autoexec)
+<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/heading_projects.svg" width="100%" alt="Active Directives"/>
+
+[![windows-optimizer](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=windows-optimizer&theme=radical&bg_color=0d1117&border_color=00ffff&title_color=00ffff&text_color=ffffff&hide_border=false)](https://github.com/Vektor010/windows-optimizer)
+[![cs2-autoexec](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=cs2-autoexec&theme=radical&bg_color=0d1117&border_color=ff00ff&title_color=ff00ff&text_color=ffffff&hide_border=false)](https://github.com/Vektor010/cs2-autoexec)
+
+[![FiiO-JT1-PEQ-Presets](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=FiiO-JT1-PEQ-Presets&theme=radical&bg_color=0d1117&border_color=ff00ff&title_color=ff00ff&text_color=ffffff&hide_border=false)](https://github.com/Vektor010/FiiO-JT1-PEQ-Presets)
+[![funfarm_clone](https://github-readme-stats.vercel.app/api/pin/?username=Vektor010&repo=funfarm_clone&theme=radical&bg_color=0d1117&border_color=00ffff&title_color=00ffff&text_color=ffffff&hide_border=false)](https://github.com/Vektor010/funfarm_clone)
 
 </div>
 
@@ -51,11 +54,17 @@
 
 <div align="center">
 
-### CONNECT WITH ME
+<img src="https://raw.githubusercontent.com/Vektor010/Vektor010/master/assets/heading_connect.svg" width="100%" alt="Secure Comm-Channels"/>
 
-<br/>
-
-[Telegram 💬](https://t.me/nexcorepc/) • [YouTube 📺](https://www.youtube.com/@Skylake159/videos) • [Steam 🕹️](https://steamcommunity.com/id/159rus/)
+<a href="https://t.me/nexcorepc/">
+  <img src="https://img.shields.io/badge/Telegram-000000?style=for-the-badge&logo=telegram&logoColor=00F5FF" alt="Telegram">
+</a>
+<a href="https://www.youtube.com/@Skylake159/videos">
+  <img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=FF00E5" alt="YouTube">
+</a>
+<a href="https://steamcommunity.com/id/159rus/">
+  <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=BD00FF" alt="Steam">
+</a>
 
 </div>
 
