@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+    <defs>
+        <style>
+            .bg { fill: #0d1117; }
+            .grid { stroke: #30363d; stroke-width: 0.5; stroke-dasharray: 4 4; }
+            
+            .text-main { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #c9d1d9; }
+            .text-muted { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 10px; fill: #8b949e; }
+            .text-accent { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #58a6ff; font-weight: bold; }
+            .text-purple { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; fill: #bc8cff; font-weight: bold; }
+            
+            .edge { stroke: #21262d; stroke-width: 1.5; fill: none; }
+            .edge-active { stroke: #58a6ff; stroke-width: 2; fill: none; opacity: 0.4; }
+            .node { fill: #161b22; stroke: #30363d; stroke-width: 2; }
+            .node-core { fill: #bc8cff; }
+            .node-accent { fill: #58a6ff; }
+            
+            .signal { 
+                fill: #58a6ff; 
+                filter: drop-shadow(0 0 4px #58a6ff);
+            }
+            .signal-purple { 
+                fill: #bc8cff; 
+                filter: drop-shadow(0 0 4px #bc8cff);
+            }
+            
+            /* Animations */
+            @keyframes pulse {
+                0%, 100% { opacity: 0.3; transform: scale(1); }
+                50% { opacity: 1; transform: scale(1.1); }
+            }
+            @keyframes dash {
+                to { stroke-dashoffset: -100; }
+            }
+            @keyframes flow1 {
+                0% { offset-distance: 0%; opacity: 0; }
+                10% { opacity: 1; }
+                90% { opacity: 1; }
+                100% { offset-distance: 100%; opacity: 0; }
+            }
+            @keyframes blink {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0; }
+            }
+            @keyframes data-stream {
+                0% { transform: translateY(0); }
+                100% { transform: translateY(-20px); }
+            }
+            
+            .anim-pulse { animation: pulse 3s infinite ease-in-out; transform-origin: center; }
+            .anim-pulse-fast { animation: pulse 1.5s infinite ease-in-out; transform-origin: center; }
+            .anim-flow { animation: flow1 3s infinite linear; }
+            .anim-flow-delay { animation: flow1 4s infinite linear 1.5s; }
+            .anim-flow-alt { animation: flow1 2.5s infinite linear 0.5s; }
+            .anim-blink { animation: blink 1s infinite step-end; }
+            
+            /* Flow paths for signals */
+            .path-1 { offset-path: path('M 150 150 L 300 100'); }
+            .path-2 { offset-path: path('M 150 150 L 300 200'); }
+            .path-3 { offset-path: path('M 300 100 L 450 150'); }
+            .path-4 { offset-path: path('M 300 200 L 450 150'); }
+            .path-5 { offset-path: path('M 450 150 L 600 100'); }
+            .path-6 { offset-path: path('M 450 150 L 600 200'); }
+            .path-7 { offset-path: path('M 300 100 L 300 200'); }
+        </style>
+    </defs>
+
+    <!-- Background and Grid -->
+    <rect class="bg" width="100%" height="100%" rx="8"/>
+    <g class="grid">
+        <line x1="0" y1="50" x2="800" y2="50"/>
+        <line x1="0" y1="100" x2="800" y2="100"/>
+        <line x1="0" y1="150" x2="800" y2="150"/>
+        <line x1="0" y1="200" x2="800" y2="200"/>
+        <line x1="0" y1="250" x2="800" y2="250"/>
+        
+        <line x1="100" y1="0" x2="100" y2="300"/>
+        <line x1="200" y1="0" x2="200" y2="300"/>
+        <line x1="300" y1="0" x2="300" y2="300"/>
+        <line x1="400" y1="0" x2="400" y2="300"/>
+        <line x1="500" y1="0" x2="500" y2="300"/>
+        <line x1="600" y1="0" x2="600" y2="300"/>
+        <line x1="700" y1="0" x2="700" y2="300"/>
+    </g>
+
+    <!-- HUD Elements (Left) -->
+    <g transform="translate(20, 20)">
+        <text class="text-accent" x="0" y="10">SYS_MONITOR_ACTV</text>
+        <line x1="0" y1="18" x2="120" y2="18" stroke="#58a6ff" stroke-width="2" opacity="0.5"/>
+        
+        <text class="text-muted" x="0" y="40">CPU_0_TICK</text>
+        <text class="text-main" x="80" y="40">3.4 GHz</text>
+        
+        <text class="text-muted" x="0" y="55">V-CACHE</text>
+        <text class="text-purple" x="80" y="55">OPTIMIZED</text>
+        
+        <text class="text-muted" x="0" y="70">NET_LTCY</text>
+        <text class="text-main" x="80" y="70">1.2ms</text>
+        
+        <text class="text-muted" x="0" y="85">MEM_ALLOC</text>
+        <text class="text-main" x="80" y="85">STATIC</text>
+        
+        <rect x="0" y="95" width="120" height="40" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <g stroke="#58a6ff" stroke-width="1" opacity="0.6">
+            <polyline points="0,135 20,120 40,125 60,105 80,115 100,100 120,110" fill="none"/>
+        </g>
+    </g>
+
+    <!-- Neural Network / Nodes -->
+    <g transform="translate(40, 0)">
+        <!-- Edges -->
+        <path d="M 150 150 L 300 100" class="edge"/>
+        <path d="M 150 150 L 300 200" class="edge"/>
+        <path d="M 300 100 L 450 150" class="edge"/>
+        <path d="M 300 200 L 450 150" class="edge"/>
+        <path d="M 450 150 L 600 100" class="edge"/>
+        <path d="M 450 150 L 600 200" class="edge"/>
+        <path d="M 300 100 L 300 200" class="edge" stroke-dasharray="2 4"/>
+        <path d="M 600 100 L 600 200" class="edge" stroke-dasharray="2 4"/>
+
+        <!-- Active Edges with Pulse -->
+        <path d="M 150 150 L 300 100" class="edge-active anim-pulse"/>
+        <path d="M 300 200 L 450 150" class="edge-active anim-pulse-fast"/>
+        
+        <!-- Paths for reference or SMIL -->
+        <path id="p1" d="M 150 150 L 300 100" fill="none" />
+        <path id="p2" d="M 150 150 L 300 200" fill="none" />
+        <path id="p3" d="M 300 100 L 450 150" fill="none" />
+        <path id="p4" d="M 300 200 L 450 150" fill="none" />
+        <path id="p5" d="M 450 150 L 600 100" fill="none" />
+        <path id="p6" d="M 450 150 L 600 200" fill="none" />
+        
+        <!-- Signals flowing along paths using SMIL -->
+        <circle r="3" class="signal">
+            <animateMotion dur="3s" repeatCount="indefinite">
+                <mpath href="#p1"/>
+            </animateMotion>
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        
+        <circle r="3" class="signal">
+            <animateMotion dur="2.5s" repeatCount="indefinite" begin="0.5s">
+                <mpath href="#p2"/>
+            </animateMotion>
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+        </circle>
+        
+        <circle r="3" class="signal-purple">
+            <animateMotion dur="4s" repeatCount="indefinite" begin="1.5s">
+                <mpath href="#p3"/>
+            </animateMotion>
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+        </circle>
+        
+        <circle r="3" class="signal">
+            <animateMotion dur="3s" repeatCount="indefinite" begin="1s">
+                <mpath href="#p4"/>
+            </animateMotion>
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3s" repeatCount="indefinite" begin="1s"/>
+        </circle>
+        
+        <circle r="3" class="signal">
+            <animateMotion dur="2.5s" repeatCount="indefinite" begin="0.8s">
+                <mpath href="#p5"/>
+            </animateMotion>
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="2.5s" repeatCount="indefinite" begin="0.8s"/>
+        </circle>
+        
+        <circle r="3" class="signal-purple">
+            <animateMotion dur="4s" repeatCount="indefinite" begin="2s">
+                <mpath href="#p6"/>
+            </animateMotion>
+            <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite" begin="2s"/>
+        </circle>
+        
+        <!-- Nodes -->
+        <!-- Node 1: Input -->
+        <circle cx="150" cy="150" r="15" class="node"/>
+        <circle cx="150" cy="150" r="6" class="node-accent anim-pulse"/>
+        <text class="text-muted" x="150" y="180" text-anchor="middle">KERNEL_HOOK</text>
+
+        <!-- Node 2: Top Mid -->
+        <circle cx="300" cy="100" r="18" class="node"/>
+        <circle cx="300" cy="100" r="8" class="node-core anim-pulse-fast"/>
+        <text class="text-muted" x="300" y="70" text-anchor="middle">SUB_TICK_SYNC</text>
+
+        <!-- Node 3: Bottom Mid -->
+        <circle cx="300" cy="200" r="18" class="node"/>
+        <circle cx="300" cy="200" r="8" class="node-accent anim-pulse"/>
+        <text class="text-muted" x="300" y="235" text-anchor="middle">HW_TIMER_RES</text>
+
+        <!-- Node 4: Main Hub -->
+        <circle cx="450" cy="150" r="22" class="node"/>
+        <circle cx="450" cy="150" r="10" class="node-core anim-pulse-fast"/>
+        <circle cx="450" cy="150" r="26" stroke="#bc8cff" stroke-width="1" fill="none" class="anim-pulse" opacity="0.5"/>
+        <text class="text-accent" x="450" y="195" text-anchor="middle">SYS_OPTIMIZER</text>
+
+        <!-- Node 5: Top Right -->
+        <circle cx="600" cy="100" r="15" class="node"/>
+        <circle cx="600" cy="100" r="6" class="node-accent"/>
+        <text class="text-muted" x="600" y="70" text-anchor="middle">PEQ_AUDIO</text>
+
+        <!-- Node 6: Bottom Right -->
+        <circle cx="600" cy="200" r="15" class="node"/>
+        <circle cx="600" cy="200" r="6" class="node-accent anim-pulse"/>
+        <text class="text-muted" x="600" y="235" text-anchor="middle">NET_ROUTING</text>
+    </g>
+
+    <!-- Terminal Output (Right) -->
+    <g transform="translate(680, 20)">
+        <text class="text-purple" x="0" y="10">CONSOLE</text>
+        <line x1="0" y1="18" x2="100" y2="18" stroke="#bc8cff" stroke-width="2" opacity="0.5"/>
+        
+        <clipPath id="term-clip">
+            <rect x="0" y="25" width="100" height="60"/>
+        </clipPath>
+        
+        <g clip-path="url(#term-clip)">
+            <!-- Simple simulated scrolling text -->
+            <text class="text-muted" x="0" y="35">> init_hook()</text>
+            <text class="text-main" x="0" y="50">OK 0x00A1</text>
+            <text class="text-muted" x="0" y="65">> mem_lock</text>
+            <text class="text-accent" x="0" y="80">TRUE</text>
+        </g>
+        
+        <!-- Status indicator -->
+        <circle cx="5" cy="115" r="4" fill="#3fb950" class="anim-pulse-fast"/>
+        <text class="text-main" x="15" y="119">ONLINE</text>
+    </g>
+
+    <!-- Decorative Corner Elements -->
+    <path d="M 10 30 L 10 10 L 30 10" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.7"/>
+    <path d="M 790 30 L 790 10 L 770 10" fill="none" stroke="#bc8cff" stroke-width="2" opacity="0.7"/>
+    <path d="M 10 270 L 10 290 L 30 290" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.7"/>
+    <path d="M 790 270 L 790 290 L 770 290" fill="none" stroke="#bc8cff" stroke-width="2" opacity="0.7"/>
+</svg>
