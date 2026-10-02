@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="260" viewBox="0 0 270 260">
+  <defs>
+    <style>
+      .bg-cyan { fill: #0d1117; stroke: #00ffff; stroke-width: 2; rx: 16px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; fill: #ffffff; font-weight: 800; }
+      .subtitle { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; }
+      .subtitle-mag { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #ff00ff; letter-spacing: 2px; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9d1d9; line-height: 1.6; }
+      .highlight { fill: #00ffff; font-weight: bold; }
+      .term { font-family: ui-monospace, Consolas, monospace; font-size: 13px; fill: #c9d1d9; }
+      .term-cmd { fill: #ff00ff; font-weight: bold; }
+      .term-path { fill: #00ffff; }
+    </style>
+  </defs>
+  <rect width="266" height="256" x="2" y="2" class="bg-cyan" />
+  
+  <rect x="15" y="15" width="240" height="230" fill="#05050a" rx="8" />
+  <!-- Window buttons -->
+  <circle cx="35" cy="35" r="5" fill="#ff5f56" />
+  <circle cx="55" cy="35" r="5" fill="#ffbd2e" />
+  <circle cx="75" cy="35" r="5" fill="#27c93f" />
+  
+  <text class="term" x="25" y="75"><tspan class="term-path">root@vektor</tspan>:<tspan class="term-cmd">~#</tspan> ./dpc.sh</text>
+  <text class="term" x="25" y="100">[+] DPC Latency:</text>
+  <text class="term" x="25" y="120" fill="#00ff00">    &lt; 45 μs</text>
+  
+  <text class="term" x="25" y="155"><tspan class="term-path">root@vektor</tspan>:<tspan class="term-cmd">~#</tspan> hpet -off</text>
+  <text class="term" x="25" y="180">[+] HPET Disabled</text>
+  <text class="term" x="25" y="200" fill="#00ff00">    Timer Sync OK</text>
+  <text class="term" x="25" y="230"><tspan class="term-path">root@vektor</tspan>:<tspan class="term-cmd">~#</tspan> █</text>
+
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140">
+  <defs>
+    <style>
+      .bg-cyan { fill: #0d1117; stroke: #00ffff; stroke-width: 2; rx: 16px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; fill: #ffffff; font-weight: 800; }
+      .subtitle { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #00ffff; letter-spacing: 2px; }
+      .subtitle-mag { font-family: ui-monospace, Consolas, monospace; font-size: 14px; fill: #ff00ff; letter-spacing: 2px; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9d1d9; line-height: 1.6; }
+      .highlight { fill: #00ffff; font-weight: bold; }
+      .term { font-family: ui-monospace, Consolas, monospace; font-size: 13px; fill: #c9d1d9; }
+      .term-cmd { fill: #ff00ff; font-weight: bold; }
+      .term-path { fill: #00ffff; }
+    </style>
+  </defs>
+  <rect width="996" height="136" x="2" y="2" class="bg-cyan" />
+  
+  <text class="title" x="40" y="55">ACTIVE DIRECTIVES</text>
+  <text class="subtitle" x="40" y="85">PROJECTS &amp; OPTIMIZATIONS</text>
+  
+  <path d="M 400 70 L 950 70" stroke="#00ffff" stroke-width="2" stroke-dasharray="10 5" />
+  <circle cx="450" cy="70" r="15" fill="#ff00ff" />
+  <circle cx="650" cy="70" r="15" fill="#00ffff" />
+  <circle cx="850" cy="70" r="15" fill="#ff00ff" />
+  
+  <text class="term" x="420" y="110">WINDOWS-OPTIMIZER</text>
+  <text class="term" x="610" y="110">CS2-AUTOEXEC</text>
+  <text class="term" x="815" y="110">FIIO-JT1-PEQ</text>
+
+</svg>
